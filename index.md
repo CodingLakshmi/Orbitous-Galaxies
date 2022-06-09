@@ -1,37 +1,123 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/CodingLakshmi/Orbitous-Galaxies/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <title> Orbitous Galaxies </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="CSS/style.css" rel="stylesheet">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Merienda&family=Quicksand&family=Raleway&display=swap"
+        rel="stylesheet">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+    <!-- Bootstrap 5 Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-# Header 1
-## Header 2
-### Header 3
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
 
-- Bulleted
-- List
+</head>
 
-1. Numbered
-2. List
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong fixed-top">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="index.html"> Orbitous Galaxies </a>
 
-**Bold** and _Italic_ and `Code` text
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
 
-[Link](url) and ![Image](src)
-```
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 float-right">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Earth </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Jupiter </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Saturn </a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+                <span>
+                    <a href="Game/game-homepage.html" class = "aTag-game"> Start Game </a>
+                </span>
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <div class="header-homepage">
+        <h1 class="h1-homepage"> Welcome to Orbitous Galaxies!! </h1>
+    </div>
 
-### Jekyll Themes
+    <div class="about-homepage">
+        <h1> <b> <u> ABOUT </u> </b> </h1>
+        <p class="pTag-homepage">
+            Space Adventure is an Astronomy Game where users can explore and learn more about our Solar System in the
+            way of facts and battles. Space Adventure helps High School students to deeply understand more about the
+            planets that are in our solar system in the way of entertainment. They can study and play at the same time.
+        </p>
+    </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CodingLakshmi/Orbitous-Galaxies/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <div class="about-us">
+        <div class="body">
+            <h1 class="team-heading-about"> Our Team </h1>
+            <div class="person">
+                <div class="container">
+                    <div class="container-inner">
+                        <img class="circle"
+                            src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80" />
+                        <img class="img img1" src="https://i.ibb.co/0h9d58g/My-project-3.png" />
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="name"> Lakshmi </div>
+                <div class="title"> Front-End Developer </div>
+            </div>
+            <div class="person">
+                <div class="container">
+                    <div class="container-inner">
+                        <img class="circle"
+                            src="https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png">
+                        <img class="img img2" src="">
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="name"> Harini </div>
+                <div class="title"> Web Designer </div>
+            </div>
+        </div>
 
-### Support or Contact
+    </div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
